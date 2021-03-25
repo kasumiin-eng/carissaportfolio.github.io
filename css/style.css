@@ -1,0 +1,167 @@
+body{
+    font-family: Didot;
+}
+
+header{
+    color: #9A7575;
+}
+ul{
+    list-style: none;
+    
+}
+
+
+.row{
+    background-color: #EDD5D5;
+    color: #9A7575;
+    font-size: 55px;
+    padding: 20px;
+    
+
+    
+} 
+
+
+
+
+
+/*.screenleft{
+    
+    width: 100px;
+    margin: 0;
+
+}
+.screenright{
+    width: 30%;
+    height: auto;
+    margin: 0;
+    
+    
+}
+.screen img{
+    width: 30%;
+    height: auto;
+    
+}*/
+.message{
+    color: #707070;
+    padding: 20px;
+    clear: both;
+}
+.contact1 {
+    width:100px;
+    height:50px;
+    text-align:center;
+    border:2px solid #DEB8B8;
+    cursor:pointer;
+    position:relative;
+    box-sizing:border-box;
+    overflow:hidden;
+    margin:0 0 40px 0;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contact1 a {
+    
+    font-size:12px;
+    color:#DEB8B8;
+    text-decoration:none;
+    line-height:50px;
+    transition:all .10s ease;
+    z-index:2;
+    position:relative;
+  }
+  .effect {
+    width:140px;
+    height:50px;
+    top:-2px;
+    left:-140px;
+    background:#DEB8B8;
+    position:absolute;
+    transition:all .5s ease;
+    z-index:1;
+  }
+  .contact1:hover .effect {
+    left:0;
+  }
+  .contact1:hover a {
+    color:#FFFFFF;
+  }
+  
+.about{
+    background-color:#FAF2F2;
+    color: #707070;
+    
+}
+.about p{
+    font-size: 60px;
+    text-align: center;
+}
+.selfintroduction{
+   
+    float: left;
+}
+.selfintroduction img{
+    padding-left: 30px;
+    width: 200px;
+    height: auto;
+}
+.about dl {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    padding-left: 30px;
+
+}
+.about dt{
+    float: left;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.about dd{
+    margin-left: 150px;
+    line-height: 40px;
+}
+
+.works{
+    color: #707070;
+    text-align: center;
+}
+.works p{
+    font-size: 60px;
+}
+.works img{
+    width: 300px;
+    height: auto;
+}
+.contact2{
+    background-color: #FAF2F2;
+    color:#707070;
+    text-align: center;
+}
+.contact2 p{
+    font-size: 60px;
+}
+.contact3{
+    font-size: 15px;
+}
+.form-group{
+    margin: 30px;
+    font-size: 15px;
+}
+
+.twitter-follow-button{
+    margin: 10px;
+}
+footer{
+    text-align: center;
+    background-color: #EDD5D5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #9A7575;
+}
