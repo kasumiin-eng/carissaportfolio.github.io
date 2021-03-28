@@ -9,40 +9,15 @@ ul{
     list-style: none;
     
 }
-
-
 .row{
     background-color: #EDD5D5;
     color: #9A7575;
     font-size: 55px;
     padding: 20px;
-    
+    margin: 0;
 
     
 } 
-
-
-
-
-
-/*.screenleft{
-    
-    width: 100px;
-    margin: 0;
-
-}
-.screenright{
-    width: 30%;
-    height: auto;
-    margin: 0;
-    
-    
-}
-.screen img{
-    width: 30%;
-    height: auto;
-    
-}*/
 .message{
     color: #707070;
     padding: 20px;
@@ -107,6 +82,12 @@ ul{
     width: 200px;
     height: auto;
 }
+.about{
+    margin-top: 100px;
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 .about dl {
     display: block;
     margin-block-start: 1em;
@@ -131,6 +112,9 @@ ul{
 .works{
     color: #707070;
     text-align: center;
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .works p{
     font-size: 60px;
@@ -143,11 +127,14 @@ ul{
     background-color: #FAF2F2;
     color:#707070;
     text-align: center;
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .contact2 p{
     font-size: 60px;
 }
-.contact3{
+.contact2-sen{
     font-size: 15px;
 }
 .form-group{
