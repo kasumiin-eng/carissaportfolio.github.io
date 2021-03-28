@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="css/style.css">
     <!--aos animation-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script src="./smooth-scroll.min.js"></script>
 </head>
 
 <body>
@@ -28,8 +30,8 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link active" href="#">HOME <span class="sr-only">(current)</span></a>
-                    <a class="nav-link" href="#">WORKS</a>
-                    <a class="nav-link" href="#">CONTACT</a>
+                    <a class="nav-link" href="#works" data-scroll>WORKS</a>
+                    <a class="nav-link" href="#contact2"data-scroll>CONTACT</a>
 
                 </div>
             </div>
@@ -59,9 +61,9 @@
         </div>
         <div class="contact1" style="text-align: center;">
             <div class="effect"></div>
-            <a href="#"> CONTACT ME </a>
+            <a href="#contact2"> CONTACT ME </a>
         </div>
-        <div class="about">
+        <div id="about" class="about">
             <p>ABOUT ME</p>
             <div class="selfintroduction"><img src="img/S__232218626.jpg"></div>
             <dl>
@@ -78,9 +80,9 @@
             </dl>
         </div>
 
-        <div class="works">
+        <div id="works" class="works">
             <p>WORKS</p>
-                <div data-aos="fade-up">
+            <div data-aos="fade-up">
                 <img src="img/portfolio.png">
 
                 <h4>ポートフォリオ</h4>
@@ -89,9 +91,9 @@
 
         </div>
 
-        <div class="contact2">
+        <div id="contact2" class="contact2">
             <p>CONTACT</p>
-            <div class="contact3">コーディング・Web制作に関するお仕事のご依頼・ご相談など
+            <div class="contact2-sen">コーディング・Web制作に関するお仕事のご依頼・ご相談など
                 お気軽にお問い合わせください。<br>
                 お問い合わせフォームは現在メンテナンス中につき動作しませんので、<br>
                 メールアドレスに直接お問い合わせいただくか、
@@ -112,14 +114,24 @@
             </div>
             <button type="submit" class="btn btn-secondary">送信する</button>
             <br>
-            <a href="https://twitter.com/Celine84445144?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @Celine84445144</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-            
+            <a href="https://twitter.com/Celine84445144?ref_src=twsrc%5Etfw" class="twitter-follow-button"
+                data-show-count="false">Follow @Celine84445144</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
         </div>
     </div>
 
     <footer>
         &copy; 2021Carissa
     </footer>
+    <script>var scroll = new SmoothScroll('a[href*= "#"]');</script>
+
+    <div id="btn-pagetop" style>
+        <a href="#">
+            ::before
+        </a>
+    </div>
+    
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -131,12 +143,22 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
+    
+
     　　
     <!--aos animation-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
+    <!--smooth scroll-->
+    <script src="js/smooth-scroll.polyfills.min.js"></script>
+    <script>
+        smoothScroll.init() ;
+    </script>
+    
+
+    　
 </body>
 
 </html>
