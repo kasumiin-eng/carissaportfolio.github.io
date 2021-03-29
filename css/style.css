@@ -6,17 +6,14 @@ header{
     color: #9A7575;
 }
 ul{
-    list-style: none;
-    
+    list-style: none;   
 }
 .row{
     background-color: #EDD5D5;
     color: #9A7575;
     font-size: 55px;
     padding: 20px;
-    margin: 0;
-
-    
+    margin: 0;  
 } 
 .message{
     color: #707070;
